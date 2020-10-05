@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light-dark mode</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/ogw/ADGmqu-t4SjxY4Ie8AO20govlZr2aRd8b66T9sL48xyx=s32-c-mo" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+    </div>
+    <nav id="nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <section id="home">
+        <h1>Food Gallery</h1>
+        <a href="#" class="button">more choices</a>
+    </section>
+    <section id="about">
+        <div class="info">
+            <img src="img/eating1-light.svg" alt="food" id="img1">
+            <img src="img/eating2-light.svg" alt="food" id="img2">
+            <img src="img/eating3-light.svg" alt="food" id="img3">
+        </div>
+        <h2>Delicious meals are tasty, appetizing, scrumptious, yummy, luscious, delectable, mouth-watering, fit for a king, delightful, lovely, wonderful, pleasant, enjoyable, appealing, enchanting, charming. You wouldn't call delicious that what is tasteless or unpleasant.</h2>
+    </section>
+    <section id="menu">
+        <img src="https://media.istockphoto.com/vectors/vintage-chalk-drawing-burger-menu-design-fast-food-menu-vector-id1206267503" alt="menu">
+        <div class="cart">
+            <i class="fas fa-hamburger"></i>
+            <i class="fas fa-pizza-slice"></i>
+            <i class="fas fa-bread-slice"></i>
+            <i class="fas fa-drumstick-bite"></i>
+            <i class="fas fa-fish"></i>
+            <i class="fas fa-cookie"></i>
+        </div>
+    </section>
+    <section id="contact">
+        <img src="img/contact-light.svg" alt="">
+        <h1>contact US</h1>
+        <form action="post">
+            <input type="text" placeholder="your name">
+            <input type="email" name="email" id="email" placeholder="your email">
+            <textarea name="comment" id="comment" cols="30" rows="10">Please tell us what you think about our food</textarea>
+            <input type="submit" value="submit">
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
